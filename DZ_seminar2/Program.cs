@@ -23,7 +23,7 @@ else Console.WriteLine("неверное число");
 
 Console.Write("Введите число до 100000:  ");
 string namber2 = Console.ReadLine()!;
-if(namber2.Length > 2) Console.WriteLine(namber2[2]);
+if(namber2.Length > 2) Console.WriteLine($" третья цыфра {namber2[2]}");
 else Console.WriteLine("нет 3-й цыфры");
 
 
