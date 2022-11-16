@@ -10,7 +10,7 @@ Console.Write("Введите трехзначное число: ");
 int namber1 = Convert.ToInt32(Console.ReadLine()!);
 int a = namber1/100;
 int b = namber1 - a*100;
-if(a > 0) Console.WriteLine($"вторая цыфра {b/10}");
+if(a > 0 && a<10) Console.WriteLine($"вторая цыфра {b/10}");
 else Console.WriteLine("неверное число");
 
 
