@@ -1,0 +1,15 @@
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\bin\Debug\net6.0\DZ_seminar3.exe
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\bin\Debug\net6.0\DZ_seminar3.deps.json
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\bin\Debug\net6.0\DZ_seminar3.runtimeconfig.json
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\bin\Debug\net6.0\DZ_seminar3.dll
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\bin\Debug\net6.0\DZ_seminar3.pdb
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.csproj.AssemblyReference.cache
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.AssemblyInfoInputs.cache
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.AssemblyInfo.cs
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.dll
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\refint\DZ_seminar3.dll
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.pdb
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\DZ_seminar3.genruntimeconfig.cache
+C:\Users\ASUS\Учеба\С#\DZ_C#\DZ_seminar3\obj\Debug\net6.0\ref\DZ_seminar3.dll

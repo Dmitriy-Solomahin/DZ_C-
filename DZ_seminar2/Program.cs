@@ -8,9 +8,9 @@
 
 Console.Write("Введите трехзначное число: ");
 int namber1 = Convert.ToInt32(Console.ReadLine()!);
-int a = namber1/100;
-int b = namber1 - a*100;
-if(a > 0 && a<10) Console.WriteLine($"вторая цыфра {b/10}");
+int a = namber1 / 100;
+int b = namber1 - a * 100;
+if (a > 0 && a < 10) Console.WriteLine($"вторая цыфра {b / 10}");
 else Console.WriteLine("неверное число");
 
 
@@ -23,7 +23,7 @@ else Console.WriteLine("неверное число");
 
 Console.Write("Введите число до 100000:  ");
 string namber2 = Console.ReadLine()!;
-if(namber2.Length > 2) Console.WriteLine($" третья цыфра {namber2[2]}");
+if (namber2.Length > 2) Console.WriteLine($" третья цыфра {namber2[2]}");
 else Console.WriteLine("нет 3-й цыфры");
 
 
@@ -36,7 +36,8 @@ else Console.WriteLine("нет 3-й цыфры");
 
 Console.Write("Введите номер дня недели: ");
 int namber3 = Convert.ToInt32(Console.ReadLine()!);
-if (namber3>1 && namber3<8){
+if (namber3 > 1 && namber3 < 8)
+{
     if (namber3 == 6 || namber3 == 7) Console.WriteLine("выходной");
     else Console.WriteLine("не выходной");
 }
