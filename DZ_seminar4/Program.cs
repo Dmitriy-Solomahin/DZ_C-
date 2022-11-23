@@ -4,19 +4,19 @@
 2, 4 -> 16
 */
 
-// //метод
-// int DegreesNamber1(int namber, int degrees)
-// {
-//     int result = namber;
-//     for (int i = 1; i < degrees; i++) result *= namber;
-//     return result;
-// }
-// // программа
-// Console.Write("введите число: ");
-// int a = Convert.ToInt32(Console.ReadLine()!);
-// Console.Write($"введите число в какую степень нужно возвести число {a}: ");
-// int b = Convert.ToInt32(Console.ReadLine()!);
-// Console.WriteLine($"Число {a} в сепени {b} равно: {DegreesNamber1(a, b)} ");
+//метод
+int DegreesNamber1(int namber, int degrees)
+{
+    int result = namber;
+    for (int i = 1; i < degrees; i++) result *= namber;
+    return result;
+}
+// программа
+Console.Write("введите число: ");
+int a = Convert.ToInt32(Console.ReadLine()!);
+Console.Write($"введите число в какую степень нужно возвести число {a}: ");
+int b = Convert.ToInt32(Console.ReadLine()!);
+Console.WriteLine($"Число {a} в сепени {b} равно: {DegreesNamber1(a, b)} ");
 
 /*
 Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
@@ -25,19 +25,19 @@
 9012 -> 12
 */
 
-// //метод
-// int SumNumbers(int namber){
-//     int result=0;
-//     for( int i = 10 ; namber>0; namber/=i){
-//         result+=namber%i;
-//         Console.WriteLine(result);
-//     }
-//     return  result;
-// }
-// // программа
-// Console.Write("введите число: ");
-// int A = Convert.ToInt32(Console.ReadLine()!);
-// Console.WriteLine($"Сумма цыфр числа {A}, равна: {SumNumbers(A)}");
+//метод
+int SumNumbers(int namber){
+    int result=0;
+    for( int i = 10 ; namber>0; namber/=i){
+        result+=namber%i;
+        Console.WriteLine(result);
+    }
+    return  result;
+}
+// программа
+Console.Write("введите число: ");
+int A = Convert.ToInt32(Console.ReadLine()!);
+Console.WriteLine($"Сумма цыфр числа {A}, равна: {SumNumbers(A)}");
 
 /*
 Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран. (числа берете любые)
@@ -50,7 +50,5 @@ int[] FillArrey(int size){
     return arrey;
 }
 // программа
-
-
 int B = 8;
 Console.WriteLine($"массив [{String.Join(" ",FillArrey(B))}]");
