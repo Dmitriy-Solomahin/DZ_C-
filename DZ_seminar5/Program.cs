@@ -28,7 +28,7 @@ int Counter(int[] mas){
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-int[] massiv = GetArray(10);
+int[] massiv = GetArray(10);  // метод из первой задачи
 Console.WriteLine($"массив [{String.Join(",",massiv)}]");
 Console.WriteLine($"в масиве сумма чисел с нечетными индексами равна {OddNumberSum(massiv)}");
 
@@ -46,7 +46,7 @@ int OddNumberSum(int[] array){
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-int [] arrey = GetArray(9);
+int [] arrey = GetArray(9); // метод из первой задачи
 Console.WriteLine($"массив [{String.Join(",",arrey)}]");
 Console.WriteLine($"массив произведения пар [{String.Join(",",SumPairsNumbers(arrey))}]");
 
@@ -71,7 +71,7 @@ int [] SumPairsNumbers(int[] mas){
 //Задача 38: Задайте массив целых чисел от -10 до 10. Найдите разницу между максимальным и минимальным элементов массива.
 
 
-int [] a = GetArray(10, -10 );
+int [] a = GetArray(10, -10 , 10); // метод из первой задачи
 Console.WriteLine($"массив [{String.Join(",",a)}]");
 Console.WriteLine($"разность макс и мин числа масива равна: {DifferenceMaxMin(a)}");
 
@@ -83,8 +83,6 @@ int DifferenceMaxMin(int [] array){
         if ( max < array[i]) max = array[i];
         if ( min > array[i]) min = array[i];
     }
-    Console.WriteLine(max);
-    Console.WriteLine(min);
     int sum = max - min;
     return sum;
 }
